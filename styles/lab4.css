@@ -31,7 +31,7 @@ table, thead, th, td {
 }
 
 #images {
-    text-align : center;  /* careful: center has US spelling */
+    text-align : center;
     }
 
 #headingsheading {
@@ -53,7 +53,6 @@ nav a {
     border: 4px solid #ccc;
    
    }      
-
 
 ol ul { list-style-type : square; }
 
