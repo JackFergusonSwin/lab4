@@ -4,7 +4,8 @@
   <meta charset="utf-8" />
   <meta name="description" content="Demonstrates some basic HTML content elements and CSS" />
   <meta name="keywords" content="HTML5, tags" />
-  <meta name="author" content="A Lecturer"  />
+  <meta name="author" content="me"  />
+  <link rel="stylesheet" href="styles/lab4.css">
   <title>HTML Structure and Content Elements + CSS</title>
   
 </head>
@@ -30,7 +31,7 @@
       </aside>
       <h2 id="headings">Headings and Paragraphs </h2>
       <p>Headings and paragraphs are BLOCK elements</p>
-      <h3>Headings</h3>
+      <h3 id="headingsheading">Headings</h3>
       <p>There are 6 levels of heading. Headings are logical marked. Do not skip levels. If you want to change the size of a heading, don't change its level - change the CSS.</p>
       <h3>Paragraphs</h3>
       <p>Paragraphs contain the body text of a web page. You cannot put another block element inside a paragraph.</p>
@@ -94,13 +95,13 @@
         </thead>
         <tbody>
          <tr>
-           <th scope="row">Jan</th>
+           <th scope="row" class="months">Jan</th>
            <td>$60</td>
            <td>$40</td>
            <td>$100</td>
          </tr>
          <tr>
-           <th scope="row">Feb</th>
+           <th scope="row" class="months">Feb</th>
            <td>$40</td>
            <td>$40</td>
            <td>$80</td>
